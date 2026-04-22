@@ -1,0 +1,24 @@
+.layout {
+  display: flex;
+  height: 100vh; 
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #222;
+  color: white;
+  padding: 1rem;
+}
+
+.main-page {
+  flex: 1; 
+  padding: 2rem;
+  font-family: sans-serif; 
+  background-color: darkblue;
+  color: white;
+}
+
+body {
+  margin: 0;
+  background-color: rgba(190, 247, 244, 0.596);
+}
