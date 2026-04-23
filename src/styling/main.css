@@ -1,12 +1,12 @@
 .layout {
   display: flex;
-  height: 100vh; 
+  height: 100vh;
 }
 
 .main-page {
-  flex: 1; 
+  flex: 1;
   padding: 2rem;
-  font-family: sans-serif; 
+  font-family: sans-serif;
   background-color: darkblue;
   color: white;
 }
@@ -20,6 +20,7 @@ body {
   width: 250px;
   background-color: #1e293b;
   color: white;
+  font-family: sans-serif;
   padding: 20px;
 }
 
@@ -40,20 +41,41 @@ body {
 }
 
 .sidebar-menu li:hover {
-  color: #38bdf8;
+  color: #0026ff;
 }
 
 
 
- /* width: 240px;
-  min-height: 100vh;
-  background: #ffffff;
-  border-right: 1px solid rgba(99, 102, 241, 0.1);
+
+
+
+
+
+
+
+/* 
+.nav-item {
   display: flex;
-  flex-direction: column;
-  padding: 1.5rem 1rem;
-  position: fixed;
-  top: 0;
-  left: 0;
-  box-shadow: 4px 0 24px rgba(99, 102, 241, 0.07);
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.7rem 0.85rem;
+  border-radius: 10px;
+  color: #6b7280;
+  font-size: 0.92rem;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  background: transparent;
+  width: 100%;
+  text-align: left;
+  transition: all 0.25s ease;
+}
+
+.nav-item:hover {
+  background: linear-gradient(135deg, #4f63f6, #6366f1);
+  color: white;
+  border-radius: 16px;
+  transform: translateX(4px);
+  box-shadow: 0 6px 18px rgba(79, 99, 246, 0.25);
 } */
