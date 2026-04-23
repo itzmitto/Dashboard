@@ -13,7 +13,6 @@
 
 body {
   margin: 0;
-  background-color: red;
 }
 
 .sidebar {
@@ -22,6 +21,7 @@ body {
   color: white;
   font-family: sans-serif;
   padding: 20px;
+  border-radius: 2rem;
 }
 
 .sidebar-title {
