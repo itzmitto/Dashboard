@@ -1,24 +1,26 @@
-.layout {
-  display: flex;
-  height: 100vh; 
-}
-
 .sidebar {
-  width: 200px;
-  background-color: #222;
+  width: 250px;
+  background-color: #1e293b;
   color: white;
-  padding: 1rem;
+  padding: 20px;
 }
 
-.main-page {
-  flex: 1; 
-  padding: 2rem;
-  font-family: sans-serif; 
-  background-color: darkblue;
-  color: white;
+.sidebar-title {
+  margin-bottom: 20px;
+  font-size: 20px;
 }
 
-body {
-  margin: 0;
-  background-color: rgba(190, 247, 244, 0.596);
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-menu li {
+  margin: 12px 0;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.sidebar-menu li:hover {
+  color: #38bdf8;
 }
