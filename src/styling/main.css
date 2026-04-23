@@ -42,3 +42,18 @@ body {
 .sidebar-menu li:hover {
   color: #38bdf8;
 }
+
+
+
+ /* width: 240px;
+  min-height: 100vh;
+  background: #ffffff;
+  border-right: 1px solid rgba(99, 102, 241, 0.1);
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 4px 0 24px rgba(99, 102, 241, 0.07);
+} */
