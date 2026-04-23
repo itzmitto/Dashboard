@@ -21,6 +21,7 @@ function Sidebar() {
 function Main() {
   return (
     <div className="layout">
+        <Sidebar /> 
 
 
       

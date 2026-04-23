@@ -1,3 +1,21 @@
+.layout {
+  display: flex;
+  height: 100vh; 
+}
+
+.main-page {
+  flex: 1; 
+  padding: 2rem;
+  font-family: sans-serif; 
+  background-color: darkblue;
+  color: white;
+}
+
+body {
+  margin: 0;
+  background-color: red;
+}
+
 .sidebar {
   width: 250px;
   background-color: #1e293b;
