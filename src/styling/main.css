@@ -2,7 +2,7 @@
   display: flex;
   height: 100vh;
 }
-
+ 
 .main-page {
   flex: 1;
   padding: 2rem;
@@ -27,6 +27,8 @@ body {
 .sidebar-title {
   margin-bottom: 20px;
   font-size: 20px;
+  margin: 20px 10px;
+  padding: 20px 20px;
 }
 
 .sidebar-menu {
