@@ -1,44 +1,31 @@
 import '../styling/main.css'
+import { Link, Outlet } from 'react-router-dom'
 
 function Sidebar() {
   return (
-    <div className="sidebar">  
+    <div className="sidebar">
       <h2 className="sidebar-title">DASHBOARD</h2>
       <ul className="sidebar-menu">
-        <li>Home</li>
-        <li>Rooster</li>
-        <li>Taken</li>
-        <li>Profiel</li>
-        <li>Cijfers</li>
-        <li>profiel</li>
-        <li>Settings</li>
-      </ul> 
+        <li><Link to="/main">Home</Link></li>
+        <li><Link to="/main/rooster">Rooster</Link></li>
+        <li><Link to="/main/taken">Taken</Link></li>
+        <li><Link to="/main/cijfers">Cijfers</Link></li>
+        <li><Link to="/main/profiel">Profiel</Link></li>
+        <li><Link to="/main/settings">Settings</Link></li>
+      </ul>
     </div>
   )
 }
-
-
-
 
 function Main() {
   return (
     <div className="layout">
-        <Sidebar /> 
-
-
-      
-
-
-
+      <Sidebar />
       <div className="main-page">
-        <h1>Dit is het begin</h1>
-        <p>Welkom op je mijn school dashboard</p>
+        <Outlet />  
       </div>
-
-
-
     </div>
   )
 }
 
-export default Main 
+export default Main
