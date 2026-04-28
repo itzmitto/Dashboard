@@ -1,15 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
-import Main from './pages/main'
+import Main, { HomeContent } from './pages/main'
 import Rooster from './pages/rooster'
-
-function HomeContent() {
-  return (
-    <>
-      <h1>Dit is het begin</h1>
-      <p>Welkom op je mijn school dashboard</p>
-    </>
-  )
-}
 
 function App() {
   return (

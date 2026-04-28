@@ -1,6 +1,15 @@
 import '../styling/main.css'
 import { Link, Outlet } from 'react-router-dom'
 
+export function HomeContent() {
+  return (
+    <>
+      <h1>Dit is het begin</h1>
+      <p>Welkom op je mijn school dashboard</p>
+    </>
+  )
+}
+
 function Sidebar() {
   return (
     <div className="sidebar">
@@ -22,7 +31,7 @@ function Main() {
     <div className="layout">
       <Sidebar />
       <div className="main-page">
-        <Outlet />  
+        <Outlet />
       </div>
     </div>
   )
