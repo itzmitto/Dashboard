@@ -2,7 +2,7 @@ import '../styling/main.css'
 
 function Sidebar() {
   return (
-    <div className="sidebar">
+    <div className="sidebar"> 
       <h2 className="sidebar-title">DASHBOARD</h2>
       <ul className="sidebar-menu">
         <li>Dashboard</li>
@@ -10,7 +10,7 @@ function Sidebar() {
         <li>Projects</li>
         <li>Messages</li>
         <li>Settings</li>
-      </ul>
+      </ul> 
     </div>
   )
 }
