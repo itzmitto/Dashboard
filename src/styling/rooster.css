@@ -20,4 +20,20 @@
     margin-bottom: 2rem;
     text-align: center;
   }
+
+.card {
+    background-color: rgba(14, 140, 243, 0.589);
+    border-radius: 12px;
+    padding: 1.8rem;
+    border: 2px solid #e0e0e0;
+}
+
+
+
+
+
+
+
+
+  
 }
