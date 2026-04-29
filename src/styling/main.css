@@ -11,6 +11,10 @@
   color: white;
 }
 
+.layout {
+  background-color: darkblue;
+}
+
 body {
   margin: 0;
 }
@@ -44,10 +48,10 @@ body {
 }
 
 .sidebar-menu li a {
-  display: block;         
-  padding: 20px 20px;     
+  display: block;
+  padding: 20px 20px;
   color: white;
-  text-decoration: none;  
+  text-decoration: none;
   border-radius: 10px;
 }
 
@@ -55,4 +59,3 @@ body {
   background: #4f63f6;
   border-radius: 10px;
 }
-
