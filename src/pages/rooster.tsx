@@ -31,7 +31,7 @@ function Rooster() {
           <h1>Woensdag</h1>
           <h2>08:30 tot 17:00</h2>
           <h3>lokaal Groen 2073</h3>
-          <h4>Vak Flex</h4>
+          <h4>Vak Flex en Rekenen</h4>
         </div>
       </div>
 
@@ -39,7 +39,7 @@ function Rooster() {
         <h1>Donderdag</h1>
         <h2>08:30 tot 17:00</h2>
         <h3>lokaal Groen 2073</h3>
-        <h4>Vak Flex</h4>
+        <h4>Vak Flex en Nederlands en Burgerschap</h4>
       </div>
 
 
