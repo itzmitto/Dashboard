@@ -6,7 +6,6 @@ function Profiel() {
             <div className="gridContainer">
                 <div className="titleBlock">
                     <h1>Profiel</h1>
-                    <h2>Dit is mijn profiel pagina</h2>
                 </div>
 
                 <div className="cardsContainer">
