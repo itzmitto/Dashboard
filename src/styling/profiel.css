@@ -5,26 +5,21 @@
 .profiel-page .gridContainer {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-start; 
 }
 
 .profiel-page .cardsContainer {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     max-width: 1000px;
     width: 100%;
 }
 
-.profiel-page .titleBlock {
-    margin-bottom: 1rem;
-}
 
 .profiel-page .card {
     background-color: rgba(255, 255, 255, 0.582);
     border-radius: 12px;
-    padding: 2rem;
-    transition: 0.3s;
+    padding: 3rem;
 }
 
 .profiel-page .card h1 {

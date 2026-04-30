@@ -5,7 +5,7 @@ function Profiel() {
         <div className="profiel-page">
             <div className="gridContainer">
                 <div className="titleBlock">
-                    <h1>Profiel</h1>
+                    <h1>Profiel</h1> 
                 </div>
 
                 <div className="cardsContainer">
