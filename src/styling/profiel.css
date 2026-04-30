@@ -1,46 +1,36 @@
-.rooster-page {   
-  .gridContainer {
+.profiel-page {
+    display: flex;
+    justify-content: center;
+}
+
+.profiel-page .gridContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 4rem 2rem;
-  }
- 
-  .cardsContainer {
+}
+
+.profiel-page .cardsContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     max-width: 1000px;
     width: 100%;
-  }
+}
 
-  .titleBlock {
+.profiel-page .titleBlock {
     max-width: 1000px;
     width: 100%;
     margin-bottom: 2rem;
     text-align: center;
-  }
+}
 
-.card {
-    background-color: rgba(255, 1, 1, 0.589);
+.profiel-page .card {
+    background-color: rgba(255, 255, 255, 0.582);
     border-radius: 12px;
     padding: 2rem;
-    border: 2px solid rgb(255, 1, 1);
     transition: 0.3s;
 }
 
-.card:hover {
-    transform: scale(1.03);
-    box-shadow: 0 0 20px rgb(255, 0, 0);
-}
-.card h1 {
+.profiel-page .card h1 {
     color: rgb(116, 243, 12);
-}
-
-
-
-
-
-
-  
 }

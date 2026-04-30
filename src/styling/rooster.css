@@ -1,46 +1,42 @@
-.rooster-page {   
-  .gridContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 4rem 2rem;
-  }
- 
-  .cardsContainer {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    max-width: 1000px;
-    width: 100%;
-  }
-
-  .titleBlock {
-    max-width: 1000px;
-    width: 100%;
-    margin-bottom: 2rem;
-    text-align: center;
-  }
-
-.card {
-    background-color: rgba(14, 140, 243, 0.589);
-    border-radius: 12px;
-    padding: 2rem;
-    border: 2px solid darkblue;
-    transition: 0.3s;
+.rooster-page {
+  display: flex;
+  justify-content: center;
 }
 
-.card:hover {
-    transform: scale(1.03);
-    box-shadow: 0 0 20px rgb(0, 190, 255);
-}
-.card h1 {
-    color: black;
+.rooster-page .gridContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.rooster-page .cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 1000px;
+  width: 100%;
+}
 
+.rooster-page .titleBlock {
+  max-width: 1000px;
+  width: 100%;
+  margin-bottom: 2rem;
+  text-align: center;
+}
 
+.rooster-page .card {
+  background-color: rgba(14, 140, 243, 0.589);
+  border-radius: 12px;
+  padding: 2rem;
+  border: 2px solid darkblue;
+  transition: 0.3s;
+}
 
+.rooster-page .card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgb(0, 190, 255);
+}
 
-
-  
+.rooster-page .card h1 {
+  color: black;
 }
