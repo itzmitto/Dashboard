@@ -1,6 +1,5 @@
 .profiel-page {
     display: flex;
-    justify-content: center;
 }
 
 .profiel-page .gridContainer {
@@ -32,5 +31,8 @@
 }
 
 .profiel-page .card h1 {
-    color: rgb(116, 243, 12);
+    color: black;
+}
+.profiel-page .card h2.h3 {
+    color: rgb(255, 12, 12);
 }

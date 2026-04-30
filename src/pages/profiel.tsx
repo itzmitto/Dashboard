@@ -11,8 +11,9 @@ function Profiel() {
 
                 <div className="cardsContainer">
                     <div className="card">
-                        <h1>Naam</h1>
-                        <h2>Jouw naam hier</h2>
+                        <h1>Andre Babirian</h1>
+                        <h2>ICT Software Developer</h2>
+                        <h3>Klas XSB1B</h3>
                     </div>
                 </div>
             </div>
