@@ -1,4 +1,4 @@
-.layout {
+.layout {  
   display: flex;
   height: 100vh;
 }
@@ -44,7 +44,7 @@ body {
   margin: 20px 10px;
   cursor: pointer;
   border-radius: 10px;
-  transition: all 0.25s ease;
+  transition: all 0.25s ease; 
 }
 
 .sidebar-menu li a {

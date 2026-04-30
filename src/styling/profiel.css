@@ -22,19 +22,19 @@
   }
 
 .card {
-    background-color: rgba(14, 140, 243, 0.589);
+    background-color: rgba(255, 1, 1, 0.589);
     border-radius: 12px;
     padding: 2rem;
-    border: 2px solid darkblue;
+    border: 2px solid rgb(255, 1, 1);
     transition: 0.3s;
 }
 
 .card:hover {
     transform: scale(1.03);
-    box-shadow: 0 0 20px rgb(0, 190, 255);
+    box-shadow: 0 0 20px rgb(255, 0, 0);
 }
 .card h1 {
-    color: black;
+    color: rgb(116, 243, 12);
 }
 
 
