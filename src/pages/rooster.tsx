@@ -1,6 +1,6 @@
-import '../styling/rooster.css';
+import '../styling/rooster.css'; 
 
-function Rooster() {
+function Rooster() { 
   return (
     <div className="rooster-page">
       <div className="gridContainer">
