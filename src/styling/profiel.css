@@ -1,7 +1,7 @@
 .profiel-page {
     display: flex;
 }
-
+ 
 .profiel-page .gridContainer {
     display: flex;
     flex-direction: column;
