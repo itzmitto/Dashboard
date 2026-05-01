@@ -9,7 +9,7 @@
 }
 
 .profiel-page .cardsContainer {
-    display: grid;       
+    display: grid;        
     gap: 20px;
     max-width: 1000px;
     width: 100%;
