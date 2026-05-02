@@ -1,6 +1,6 @@
 import '../styling/settings.css';
    
-function Settings() {
+function Settings() { 
     return (
         <div className="rooster-page">
             <div className="gridContainer">
