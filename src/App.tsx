@@ -2,6 +2,9 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import Main, { HomeContent } from './pages/main'
 import Rooster from './pages/rooster'
 import Profiel from './pages/profiel'
+import Taken from './pages/taken'
+import Settings from './pages/settings'
+
 
 function App() {
   return (
@@ -12,6 +15,8 @@ function App() {
           <Route index element={<HomeContent />} />
           <Route path="rooster" element={<Rooster />} />
           <Route path="profiel" element={<Profiel />} />
+          <Route path="taken" element={<Taken />} />
+          <Route path="settings" element={<Settings />} />
 
         </Route>
       </Routes>
