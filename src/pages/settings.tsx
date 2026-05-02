@@ -1,5 +1,5 @@
 import '../styling/settings.css';
-
+   
 function Settings() {
     return (
         <div className="rooster-page">
