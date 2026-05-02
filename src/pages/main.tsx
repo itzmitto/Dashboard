@@ -1,5 +1,5 @@
-import '../styling/main.css'   
-import { Link, Outlet } from 'react-router-dom'
+import '../styling/main.css'     
+import { Link, Outlet } from 'react-router-dom' 
 
 export function HomeContent() {
   return (
