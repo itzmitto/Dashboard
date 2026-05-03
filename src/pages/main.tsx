@@ -21,7 +21,7 @@ export function HomeContent() {
           <div className="card">
             <h1>Dinsdag</h1>
             <h2>08:30 tot 17:00</h2>
-            <h3>lokaal Groen 2.073</h3>
+            <h3>lokaal Groen 2.073</h3> 
             <h4>Vak: Flex</h4>
           </div>
 </div>
