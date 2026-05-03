@@ -22,7 +22,6 @@ body {
 .sidebar {
   width: 250px;
   background-color: #1e293b;
-  color: white;
   font-family: sans-serif;
   padding: 20px;
 }  
@@ -70,3 +69,9 @@ body {
 .card h1 {
   color: green;
 }
+
+.sidebar-title-link {
+  text-decoration: none;
+  color: white;
+}
+
