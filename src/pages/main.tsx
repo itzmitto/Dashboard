@@ -30,11 +30,13 @@ export function HomeContent() {
 
   )
 }
-
-function Sidebar() {
+function Sidebar() { 
   return (
     <div className="sidebar">
-      <h2 className="sidebar-title">DASHBOARD</h2>
+      <Link to="/main" className="sidebar-title-link">
+        <h2 className="sidebar-title">DASHBOARD</h2>
+      </Link>
+
       <ul className="sidebar-menu">
         <li><Link to="/main">Home</Link></li>
         <li><Link to="/main/rooster">Rooster</Link></li>
