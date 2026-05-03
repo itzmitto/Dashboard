@@ -1,6 +1,6 @@
-import '../styling/profiel.css';
+import '../styling/leraren.css';
 
-function Profiel() {
+function Leraren() {
     return (
         <div className="profiel-page">
             <div className="gridContainer">
@@ -10,9 +10,9 @@ function Profiel() {
 
                 <div className="cardsContainer">
                     <div className="card">
-                        <h1>Andre Babirian</h1>
-                        <h2>ICT Software Developer: Jaar 1</h2>
-                        <h3>Klas XSB1B</h3>
+                        <h1>leraren</h1>
+                        <h2>leraren</h2>
+                        <h3>leraren</h3>
                     </div>
                 </div>
             </div>
@@ -21,4 +21,4 @@ function Profiel() {
     );
 }
 
-export default Profiel;
+export default Leraren;
