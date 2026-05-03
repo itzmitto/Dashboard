@@ -4,6 +4,8 @@ import Rooster from './pages/rooster'
 import Profiel from './pages/profiel'
 import Taken from './pages/taken'
 import Settings from './pages/settings'
+import Leraren from './pages/leraren'
+
 
 
 function App() {
@@ -17,6 +19,7 @@ function App() {
           <Route path="profiel" element={<Profiel />} />
           <Route path="taken" element={<Taken />} />
           <Route path="settings" element={<Settings />} />
+          <Route path="leraren" element={<Leraren />} />
 
         </Route>
       </Routes>

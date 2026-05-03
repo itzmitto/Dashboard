@@ -1,9 +1,9 @@
-import '../styling/main.css'     
-import { Link, Outlet } from 'react-router-dom' 
+import '../styling/main.css'
+import { Link, Outlet } from 'react-router-dom'
 
 export function HomeContent() {
   return (
-     <div className="home-page">
+    <div className="home-page">
       <div className="gridContainer">
         <div className="titleBlock">
           <h1>School Rooster</h1>
@@ -18,19 +18,19 @@ export function HomeContent() {
             <h4>Vak: Flex</h4>
           </div>
 
-          <div className="card"> 
+          <div className="card">
             <h1>Dinsdag</h1>
             <h2>08:30 tot 17:00</h2>
-            <h3>lokaal Groen 2.073</h3> 
+            <h3>lokaal Groen 2.073</h3>
             <h4>Vak: Flex</h4>
           </div>
-</div>
-</div>
-</div>
+        </div>
+      </div>
+    </div>
 
   )
 }
-function Sidebar() { 
+function Sidebar() {
   return (
     <div className="sidebar">
       <Link to="/main" className="sidebar-title-link">
@@ -41,6 +41,7 @@ function Sidebar() {
         <li><Link to="/main">Home</Link></li>
         <li><Link to="/main/rooster">Rooster</Link></li>
         <li><Link to="/main/taken">Taken</Link></li>
+        <li><Link to="/main/leraren">Leraren</Link></li>
         <li><Link to="/main/profiel">Profiel</Link></li>
         <li><Link to="/main/settings">Settings</Link></li>
       </ul>
