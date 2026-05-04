@@ -1,42 +1,91 @@
 .rooster-page { 
+  background-color: #121212; 
+  color: #ffffff;
+  min-height: 100vh;
+  padding: 40px;
+  font-family: sans-serif;
+}
+
+.schedule-wrapper {
   display: flex;
-  justify-content: center;
-}  
-      
-.rooster-page .gridContainer {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  padding: 20px;
+  border: 1px solid #333;
+}
+
+.time-column {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 50px;
+  margin-right: 20px;
+  color: #666;
+  font-size: 0.8rem;
+}
+
+.time-slot {
+  height: 60px; 
+}
+
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  gap: 10px;
+  width: 100%;
+}
+
+.day-column {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
-.rooster-page .cardsContainer {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px; 
-  max-width: 1000px;
+.day-label {
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: #888;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.card {
+  background-color: #2c2c2c; 
+  border-left: 4px solid #4a90e2; 
+  border-radius: 6px;
+  padding: 15px;
   width: 100%;
+  box-sizing: border-box;
 }
 
-.rooster-page .titleBlock {
-  max-width: 1000px;
-  width: 100%;
-  margin-bottom: 2rem;
-  text-align: center;
+.long-card {
+  height: 400px; 
 }
 
-.rooster-page .card {
-  background-color: rgba(14, 140, 243, 0.589);
-  border-radius: 12px;
-  padding: 2rem;
-  border: 2px solid darkblue;
-  transition: 0.3s;
+.short-card {
+  height: 250px; 
 }
 
-.rooster-page .card:hover {
-  transform: scale(1.03);
-  box-shadow: 0 0 20px rgb(0, 190, 255);
+.course-code {
+  display: block;
+  font-size: 0.7rem;
+  color: #aaa;
+  margin-bottom: 5px;
 }
 
-.rooster-page .card h1 {
-  color: black;
+.course-name {
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 0 0 10px 0;
+}
+
+.location {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.card:hover {
+  background-color: #3d3d3d;
+  transform: translateY(-2px);
+  transition: 0.2s;
 }
