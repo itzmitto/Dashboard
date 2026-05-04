@@ -52,4 +52,19 @@ function Rooster() {
               </div>
             </div>
 
-           
+            <div className="day-column">
+              <span className="day-label">FRIDAY</span>
+              <div className="card short-card">
+                <span className="course-code">FLEX</span>
+                <p className="course-name">Korte dag</p>
+                <p className="location">Groen 2.073</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Rooster;
