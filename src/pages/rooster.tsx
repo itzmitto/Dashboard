@@ -25,4 +25,13 @@ function Rooster() {
               </div>
             </div>
 
+            <div className="day-column">
+              <span className="day-label">TUESDAY</span>
+              <div className="card long-card">
+                <span className="course-code">FLEX</span>
+                <p className="course-name">Zelfstudie & Begeleiding</p>
+                <p className="location">Groen 2.073</p>
+              </div>
+            </div>
+
             
