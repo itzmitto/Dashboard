@@ -1,4 +1,4 @@
-import '../styling/leraren.css';
+import '../styling/leraren.css'; 
 
 function Leraren() {
     return (
