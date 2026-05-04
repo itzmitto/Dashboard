@@ -1,53 +1,28 @@
 import '../styling/rooster.css';
 
 function Rooster() {
+  const uren = ["08:00", "09:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00"];
+
   return (
     <div className="rooster-page">
       <div className="gridContainer">
         <div className="titleBlock">
-          <h1>School Rooster</h1>
-          <h2>Dit is mijn schoolrooster voor de week</h2>
+          <h1>Academic Schedule</h1>
         </div>
 
-        <div className="cardsContainer">
-          <div className="card">
-            <h1>Maandag</h1>
-            <h2>08:30 tot 17:00</h2>
-            <h3>lokaal Groen 2.073</h3> 
-            <h4>Vak: Flex</h4>
+        <div className="schedule-wrapper">
+          <div className="time-column">
+            {uren.map(tijd => <div key={tijd} className="time-slot">{tijd}</div>)}
           </div>
 
-          <div className="card">
-            <h1>Dinsdag</h1>
-            <h2>08:30 tot 17:00</h2>
-            <h3>lokaal Groen 2.073</h3>
-            <h4>Vak: Flex</h4>
-          </div>
+          <div className="cardsContainer">
+            <div className="day-column">
+              <span className="day-label">MONDAY</span>
+              <div className="card long-card">
+                <span className="course-code">FLEX</span>
+                <p className="course-name">Zelfstudie & Begeleiding</p>
+                <p className="location">Groen 2.073</p>
+              </div>
+            </div>
 
-          <div className="card">
-            <h1>Woensdag</h1>
-            <h2>08:30 tot 17:00</h2>
-            <h3>lokaal Groen 2.073</h3>
-            <h4>Vak: Flex en Rekenen</h4>
-          </div>
-
-          <div className="card">
-            <h1>Donderdag</h1>
-            <h2>08:30 tot 17:00</h2>
-            <h3>lokaal Groen 2.073</h3>
-            <h4>Vak: Flex, Nederlands en Burgerschap</h4>
-          </div>
-
-          <div className="card">
-            <h1>Vrijdag</h1>
-            <h2>08:30 tot 13:30</h2>
-            <h3>lokaal Groen 2.073</h3>
-            <h4>Vak: Flex</h4>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-export default Rooster;
+            
