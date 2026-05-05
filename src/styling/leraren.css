@@ -25,14 +25,16 @@
     background-color: #2c2c2c;
 }
 .card5 {
-    padding:10px;
-    width: auto;
+    padding:15px;
+    width: 100%;
     background-color:#2c2c2c;
+    border-left: 4px solid #4a90e2;
+    border-radius: 6px;
     
 }
 
-border-left: 4px solid #4a90e2; 
+/* border-left: 4px solid #4a90e2; 
   border-radius: 6px;
   padding: 15px;
   width: 100%;
-  box-sizing: border-box;
+  box-sizing: border-box; */
