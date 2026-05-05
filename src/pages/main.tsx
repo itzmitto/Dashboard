@@ -27,7 +27,7 @@ export function HomeContent() {
         </div>
       </div>
     </div>
-
+ 
   )
 }
 function Sidebar() {
