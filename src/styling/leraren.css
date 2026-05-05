@@ -5,27 +5,39 @@
 }
 
 .card1 {
-    padding: 10px;
-    width: auto;
+    padding: 15px;
+    width: 100%;
     background-color: #2c2c2c;
+    border-left: 4px solid #4a90e2;
+    border-radius: 6px;
+    box-sizing: border-box;
 }
 
 .card2 {
-    padding: 10px;
-    width: auto;
+    padding: 15px;
+    width: 100%;
     background-color: #2c2c2c;
+    border-left: 4px solid #4a90e2;
+    border-radius: 6px;
+    box-sizing: border-box;
 }
 
 .card3 {
-    padding: 10px;
-    width: auto;
+    padding: 15px;
+    width: 100%;
     background-color: #2c2c2c;
+    border-left: 4px solid #4a90e2;
+    border-radius: 6px;
+    box-sizing: border-box;
 }
 
 .card4 {
-    padding: 10px;
-    width: auto;
+    padding: 15px;
+    width: 100%;
     background-color: #2c2c2c;
+    border-left: 4px solid #4a90e2;
+    border-radius: 6px;
+    box-sizing: border-box;
 }
 
 .card5 {
@@ -34,12 +46,35 @@
     background-color: #2c2c2c;
     border-left: 4px solid #4a90e2;
     border-radius: 6px;
-
-
+    box-sizing: border-box;
 }
 
-/* border-left: 4px solid #4a90e2; 
-  border-radius: 6px;
-  padding: 15px;
-  width: 100%;
-  box-sizing: border-box; */
+.card1:hover {
+    background-color: #3d3d3d;
+    transform: translateY(-5px);
+    transition: 0.2s;
+}
+
+.card2:hover {
+    background-color: #3d3d3d;
+    transform: translateY(-5px);
+    transition: 0.2s;
+}
+
+.card3:hover {
+    background-color: #3d3d3d;
+    transform: translateY(-5px);
+    transition: 0.2s;
+}
+
+.card4:hover {
+    background-color: #3d3d3d;
+    transform: translateY(-5px);
+    transition: 0.2s;
+}
+
+.card5:hover {
+    background-color: #3d3d3d;
+    transform: translateY(-5px);
+    transition: 0.2s;
+}
