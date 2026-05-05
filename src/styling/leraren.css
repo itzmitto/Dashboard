@@ -1,36 +1,41 @@
-.cardsContainer{
-    display: flex; 
+.cardsContainer {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .card1 {
-    padding:10px;
+    padding: 10px;
     width: auto;
     background-color: #2c2c2c;
 }
+
 .card2 {
-    padding:10px;
+    padding: 10px;
     width: auto;
     background-color: #2c2c2c;
 }
+
 .card3 {
-    padding:10px;
+    padding: 10px;
     width: auto;
     background-color: #2c2c2c;
 }
+
 .card4 {
-    padding:10px;
+    padding: 10px;
     width: auto;
     background-color: #2c2c2c;
 }
+
 .card5 {
-    padding:15px;
+    padding: 15px;
     width: 100%;
-    background-color:#2c2c2c;
+    background-color: #2c2c2c;
     border-left: 4px solid #4a90e2;
     border-radius: 6px;
-    
+
+
 }
 
 /* border-left: 4px solid #4a90e2; 

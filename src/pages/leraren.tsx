@@ -34,7 +34,7 @@ function Leraren() {
                         <h3>leraren</h3>
                     </div>
                     <div className="card5">
-                        <h1>?</h1>
+                        <h1>mevrouw </h1>
                         <h2>vakken:</h2>
                         <p>Nederlands</p>
                         <h3>leraren</h3>
