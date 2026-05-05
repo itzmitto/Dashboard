@@ -6,8 +6,8 @@ export function HomeContent() {
     <div className="home-page">
       <div className="gridContainer">
         <div className="titleBlock">
-          <h1>School Rooster</h1>
-          <h2>Dit is mijn schoolrooster voor de week</h2>
+          <h1>Home pagina</h1>
+          <h2>Dit is mijn homepagina</h2>
         </div>
 
         <div className="cardsContainer">
