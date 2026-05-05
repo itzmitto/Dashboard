@@ -9,7 +9,7 @@ function Leraren() {
                 </div>
 
                 <div className="cardsContainer">
-                    <div className="card1">
+                    <div className="card1"> 
                         <h1>Peter</h1>
                         <h2>vakken:</h2>
                         <p>flex</p>
