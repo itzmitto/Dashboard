@@ -19,7 +19,7 @@ function Leraren() {
                         <h1>Jeroen</h1>
                         <h2>vakken:</h2>
                         <p>flex</p>
-                        <h3>leraren</h3>
+                        <h3>leraren</h3>  
                     </div>
                     <div className="card3">
                         <h1>Jan</h1>
