@@ -11,7 +11,7 @@ function Leraren() {
                 <div className="cardsContainer">
                     <div className="card1"> 
                         <h1>Peter</h1>
-                        <h2>vakken:</h2>
+                        <h2>vakken:</h2> 
                         <p>flex</p>
                         <h3>leraren</h3>
                     </div>
