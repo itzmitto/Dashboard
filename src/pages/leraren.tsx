@@ -7,7 +7,7 @@ function Leraren() {
                 <div className="titleBlock">
                     <h1>leraren van mijn klas</h1> 
                 </div>
- 
+  
                 <div className="cardsContainer">
                     <div className="card1"> 
                         <h1>Peter</h1>
