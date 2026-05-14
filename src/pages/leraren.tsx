@@ -1,10 +1,10 @@
 import '../styling/leraren.css'; 
 
 function Leraren() {
-    return (
+    return (  
         <div className="profiel-page">
             <div className="gridContainer"> 
-                <div className="titleBlock">
+                <div className="titleBlock"> 
                     <h1>leraren van mijn klas</h1> 
                 </div>
   
