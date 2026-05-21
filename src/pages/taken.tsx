@@ -26,8 +26,8 @@ function Taken() {
                 <div className="tl-row row-urgent">
                     <div className="tl-num">01</div>
                     <div>
-                        <div className="tl-name">UML Diagram Afmaken</div>
-                        <div className="tl-sub">Software Architecture · Sprint 4</div>
+                        <div className="tl-name">Movie website maken met react</div>
+                        <div className="tl-sub">Software Architecture</div>
                     </div>
                     <span className="tl-badge tbg-u">Urgent</span>
                     <span className="tl-dead">Morgen 09:00</span>

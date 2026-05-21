@@ -1,7 +1,7 @@
-import '../styling/main.css'
+import '../styling/main.css'  
 import { Link, Outlet, useLocation } from 'react-router-dom'
 
-export function HomeContent() {
+export function HomeContent() { 
   return (
     <div className="page-content">
       <div className="topbar">
