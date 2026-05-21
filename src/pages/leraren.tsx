@@ -9,11 +9,10 @@ const docenten = [
         num: 'Docent 01',
         Class: 'lp-bg-0',
         initial: 'J',
-        shapes: (
-            <>
-                <div className="lw-geo geo1" />
-                <div className="lw-geo geo2" />
-            </>
+        shapes: (<>
+            <div className="lw-geo geo1" />
+            <div className="lw-geo geo2" />
+        </>
         ),
     },
     {
@@ -24,12 +23,11 @@ const docenten = [
         num: 'Docent 02',
         Class: 'lp-bg-1',
         initial: 'J',
-        shapes: (
-            <>
-                <div className="lw-geo geo3" />
-                <div className="lw-geo geo4" />
-                <div className="lw-geo geo5" />
-            </>
+        shapes: (<>
+            <div className="lw-geo geo3" />
+            <div className="lw-geo geo4" />
+            <div className="lw-geo geo5" />
+        </>
         ),
     },
     {
@@ -40,11 +38,10 @@ const docenten = [
         num: 'Docent 03',
         Class: 'lp-bg-2',
         initial: 'P',
-        shapes: (
-            <>
-                <div className="lw-geo geo6" />
-                <div className="lw-geo geo12" />
-            </>
+        shapes: (<>
+            <div className="lw-geo geo6" />
+            <div className="lw-geo geo12" />
+        </>
         ),
     },
     {
@@ -55,11 +52,10 @@ const docenten = [
         num: 'Docent 04',
         Class: 'lp-bg-3',
         initial: 'A',
-        shapes: (
-            <>
-                <div className="lw-geo geo7" />
-                <div className="lw-geo geo8" />
-            </>
+        shapes: (<>
+            <div className="lw-geo geo7" />
+            <div className="lw-geo geo8" />
+        </>
         ),
     },
     {
@@ -70,12 +66,11 @@ const docenten = [
         num: 'Docent 05',
         Class: 'lp-bg-4',
         initial: 'A',
-        shapes: (
-            <>
-                <div className="lw-geo geo9" />
-                <div className="lw-geo geo10" />
-                <div className="lw-geo geo11" />
-            </>
+        shapes: (<>
+            <div className="lw-geo geo9" />
+            <div className="lw-geo geo10" />
+            <div className="lw-geo geo11" />
+        </>
         ),
     },
 ]

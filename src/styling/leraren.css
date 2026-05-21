@@ -107,7 +107,169 @@
 .geo1 {
     top: 15px;
     left: 15px;
-    width: 65px;
+    width: 65px; .rooster-page {
+  height: 100%;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.85rem 2rem;
+  border-bottom: 2px solid var(--ink);
+  background: var(--paper);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.tb-left, .tb-right { display: flex; align-items: center; gap: 1rem; }
+.tb-chapter { font-family: 'Anton', sans-serif; font-size: 10px; letter-spacing: 0.3em; color: var(--gray); text-transform: uppercase; }
+.tb-title { font-family: 'Bebas Neue', sans-serif; font-size: 1.5rem; letter-spacing: 0.05em; }
+.tb-tag {
+  font-size: 7px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border: 1.5px solid var(--ink);
+  font-family: 'Space Mono', monospace;
+}
+.tb-tag.red { background: var(--red); color: #fff; border-color: var(--red); }
+
+/* Grid */
+.rooster-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  height: calc(100vh - 60px);
+}
+
+.rg-card {
+  border-right: 2px solid var(--ink);
+  overflow: hidden;
+  cursor: none;
+  transition: transform 0.35s cubic-bezier(0.16,1,0.3,1);
+  position: relative;
+}
+
+.rg-card:last-child { border-right: none; }
+.rg-card:hover { transform: translateY(-6px); z-index: 5; }
+
+.rg-card:hover .rg-head {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+/* Painting Area */
+.rg-painting {
+  height: 140px;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 2px solid var(--ink);
+}
+
+.rp-0, .rp-1, .rp-2, .rp-3, .rp-4 { background: #F0EBE1; }
+
+/* Geo Shapes - zoals in je HTML */
+.rg-shape1, .rg-shape2, .rg-shape3 {
+  position: absolute;
+  transition: transform 0.4s ease;
+}
+
+.rg-card:hover .rg-shape1 { transform: rotate(15deg) scale(1.1) !important; }
+.rg-card:hover .rg-shape2 { transform: translateX(8px) !important; }
+
+/* Per dag specifieke shapes (je kunt deze nog finetunen) */
+.rg-card:nth-child(1) .rg-shape1 { top:15px; left:20px; width:60px; height:60px; background:var(--red); transform:rotate(-8deg); }
+.rg-card:nth-child(1) .rg-shape2 { top:30px; right:10px; width:40px; height:40px; background:var(--ink); clip-path:polygon(50% 0%,100% 100%,0% 100%); }
+.rg-card:nth-child(1) .rg-shape3 { bottom:5px; left:50px; width:30px; height:30px; border:3px solid var(--ink); border-radius:50%; }
+
+/* Dinsdag */
+.rg-card:nth-child(2) .rg-shape1 { top:10px; right:15px; width:55px; height:55px; background:var(--orange); transform:rotate(12deg); }
+.rg-card:nth-child(2) .rg-shape2 { bottom:10px; left:15px; width:45px; height:25px; background:var(--ink); }
+.rg-card:nth-child(2) .rg-shape3 { top:50px; left:40px; width:25px; height:25px; border:3px solid var(--orange); transform:rotate(45deg); }
+
+/* Woensdag */
+.rg-card:nth-child(3) .rg-shape1 { top:5px; left:10px; width:70px; height:40px; background:var(--cyan); }
+.rg-card:nth-child(3) .rg-shape2 { bottom:0; right:0; width:50px; height:70px; background:var(--ink); }
+.rg-card:nth-child(3) .rg-shape3 { top:35px; left:55px; width:30px; height:30px; background:var(--paper); border-radius:50%; }
+
+/* Donderdag */
+.rg-card:nth-child(4) .rg-shape1 { bottom:0; left:0; width:80px; height:50px; background:var(--magenta); transform:skewX(-10deg); }
+.rg-card:nth-child(4) .rg-shape2 { top:10px; right:10px; width:35px; height:80px; background:var(--ink); }
+.rg-card:nth-child(4) .rg-shape3 { top:20px; left:25px; width:40px; height:4px; background:var(--magenta); transform:rotate(-20deg); }
+
+/* Vrijdag */
+.rg-card:nth-child(5) .rg-shape1 { 
+  top:0; right:0; width:0; height:0; 
+  border-style:solid; border-width:0 90px 120px 0; 
+  border-color:transparent var(--mint) transparent transparent; 
+  opacity:0.8; 
+}
+.rg-card:nth-child(5) .rg-shape2 { bottom:10px; left:10px; width:40px; height:40px; background:var(--ink); border-radius:50%; }
+.rg-card:nth-child(5) .rg-shape3 { top:20px; left:20px; width:50px; height:3px; background:var(--ink); }
+
+/* Body */
+.rg-head {
+  font-family: 'Anton', sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  padding: 8px 1rem;
+  background: var(--paper2);
+  border-bottom: 2px solid var(--ink);
+  transition: background 0.25s, color 0.25s;
+  text-transform: uppercase;
+}
+
+.rg-body { padding: 1.2rem 1rem; }
+
+.rg-time {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2rem;
+  line-height: 1;
+  letter-spacing: 0.04em;
+}
+
+.rg-sep {
+  font-size: 8px;
+  letter-spacing: 0.15em;
+  color: var(--lgray);
+  margin: 4px 0 8px;
+}
+
+.rg-ruler {
+  height: 1.5px;
+  background: var(--ink);
+  margin: 12px 0;
+  opacity: 0.15;
+}
+
+.rg-room {
+  font-size: 7px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--lgray);
+  margin-bottom: 4px;
+}
+
+.rg-vak {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 0.06em;
+  color: var(--ink);
+}
+
+.rg-tag {
+  display: inline-block;
+  font-size: 6px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  margin-top: 8px;
+  background: var(--ink);
+  color: var(--paper);
+}
     height: 65px;
     background: var(--red);
     transform: rotate(-10deg);

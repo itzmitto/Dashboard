@@ -38,7 +38,7 @@ function Rooster() {
               <span className="day-label">WEDNESDAY</span>
               <div className="card long-card">
                 <span className="course-code">FLEX & REKENEN</span>
-                <p className="course-name">Focus op cijfers</p>
+                <p className="course-name">Focus op cijfers< /p>
                 <p className="location">Groen 2.073</p>
               </div>
             </div>
