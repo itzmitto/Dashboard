@@ -27,12 +27,12 @@ function Cijfers() {
                         <span className="gr-score high">7</span>
                     </div>
                     <div className="grade-row">
-                        <span className="gr-vak">Software Architecture</span>
-                        <span className="gr-score mid">6.5</span>
+                        <span className="gr-vak">Engels</span>
+                        <span className="gr-score mid">Nvt</span>
                     </div>
                     <div className="grade-row">
-                        <span className="gr-vak">Databases</span>
-                        <span className="gr-score high">7.9</span>
+                        <span className="gr-vak">Eindverslag</span>
+                        <span className="gr-score high">Ntv</span>
                     </div>
                 </div>
 
