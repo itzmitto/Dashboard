@@ -67,6 +67,7 @@
     overflow: hidden;
     position: relative;
     transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    
 }
 
 .lw-card:nth-child(3n) {
@@ -78,7 +79,7 @@
     z-index: 10;
 }
 
-.lw-painting {
+.lw-class {
     height: 180px;
     position: relative;
     overflow: hidden;
@@ -134,16 +135,16 @@
 }
 
 
-.geo4{
+.geo4 {
     top: 15px;
     left: 15px;
     width: 65px;
     height: 65px;
-    background: var(--red);
+    background: var(--cyan);
     transform: rotate(-10deg);
 }
 
-.geo9{
+.geo9 {
     top: 0;
     right: 0;
     width: 0;
@@ -172,9 +173,18 @@
     border-width: 0 100px 100px 0;
     border-color: transparent var(--orange);
 }
- 
 
-.geo8{
+
+.geo8 {
+    top: 15px;
+    left: 15px;
+    width: 65px;
+    height: 65px;
+    background: var(--cyan);
+    transform: rotate(-10deg);
+}
+
+.geo11 {
     top: 15px;
     left: 15px;
     width: 65px;
@@ -182,8 +192,7 @@
     background: var(--red);
     transform: rotate(-10deg);
 }
-
-.geo11{
+.geo12 {
     top: 15px;
     left: 15px;
     width: 65px;
@@ -191,7 +200,6 @@
     background: var(--red);
     transform: rotate(-10deg);
 }
-
 .lw-initial {
     position: absolute;
     bottom: -15px;
@@ -201,7 +209,6 @@
     line-height: 1;
     opacity: 0.08;
     pointer-events: none;
-    user-select: none;
     transition: opacity 0.3s;
 }
 
