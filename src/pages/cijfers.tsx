@@ -28,30 +28,42 @@ function Cijfers() {
                     </div>
                     <div className="grade-row">
                         <span className="gr-vak">Engels</span>
-                        <span className="gr-score mid">Nvt</span>
+                        <span className="gr-score mid">Nog te doen</span>
+                    </div>
+                    <div className="grade-row">
+                        <span className="gr-vak">Burgerschap</span>
+                        <span className="gr-score mid">Nog te doen</span>
+                    </div>
+                     <div className="grade-row">
+                        <span className="gr-vak">Portfolio examen</span>
+                        <span className="gr-score mid">Nog te doen</span>
+                    </div>
+                     <div className="grade-row">
+                        <span className="gr-vak">Keuzedeel</span>
+                        <span className="gr-score mid">Nog te doen</span>
                     </div>
                     <div className="grade-row">
                         <span className="gr-vak">Eindverslag</span>
-                        <span className="gr-score high">Ntv</span>
+                        <span className="gr-score high">Nog te doen</span>
                     </div>
                 </div>
 
                 <div className="cg-panel cg-panel-right">
                     <div className="avg-display">
-                        <div className="avg-num">7.6</div>
+                        <div className="avg-num">7.5</div>
                         <div className="avg-label">Semester Gemiddelde</div>
                     </div>
                     <div className="mini-stats">
                         <div className="ms-item">
-                            <div className="msi-val">4/5</div>
+                            <div className="msi-val">2/7</div>
                             <div className="msi-lbl">Vakken Klaar</div>
                         </div>
                         <div className="ms-item">
-                            <div className="msi-val">8.2</div>
+                            <div className="msi-val">8</div>
                             <div className="msi-lbl">Hoogste</div>
                         </div>
                         <div className="ms-item">
-                            <div className="msi-val">6.5</div>
+                            <div className="msi-val">7</div>
                             <div className="msi-lbl">Laagste</div>
                         </div>
                     </div>

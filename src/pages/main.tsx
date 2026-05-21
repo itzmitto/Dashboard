@@ -26,8 +26,8 @@ export function HomeContent() {
         </div>
         <div className="hero-cell">
           <div className="hc-slash hc-s2"></div>
-          <div className="hc-accent">7.6</div>
-          <div className="hc-value">7.6</div>
+          <div className="hc-accent">7.5</div>
+          <div className="hc-value">7.5</div>
           <div className="hc-label">Gem. Cijfer</div>
           <div className="hc-sub">Semester II</div>
         </div>
@@ -145,7 +145,7 @@ export function HomeContent() {
           </div>
           <div className="info-row">
             <span className="ir-glyph">▶</span>
-            <span className="ir-text">Gemiddeld cijfer: <strong>7.6</strong> goed op schema</span>
+            <span className="ir-text">Gemiddeld cijfer: <strong>7.5</strong> goed op schema</span>
           </div>
           <div className="info-row">
             <span className="ir-glyph">▶</span>
