@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
-  
+
 :root {
   --paper: #F0EBE1;
   --paper2: #E4DDD0;
@@ -38,7 +38,7 @@ body {
 body.dark-mode {
   --paper: #0F0E0C;
   --paper2: #1A1814;
-  --ink: #F0EBE1; 
+  --ink: #F0EBE1;
   --off: #000000;
   --gray: #B5AFA6;
   --lgray: #6B6560;
@@ -238,8 +238,6 @@ body::after {
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
-  scrollbar-width: thin;
-  scrollbar-color: var(--ink) var(--paper2);
   background: var(--paper);
   color: var(--ink);
   font-family: 'Space Mono', monospace;

@@ -113,13 +113,15 @@
 }
 
 .geo2 {
-    bottom: 10px;
-    right: 20px;
-    width: 45px;
-    height: 45px;
-    background: var(--ink);
-    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 100px 100px 0;
+    border-color: transparent var(--orange) transparent transparent;
 }
+
 
 .geo3 {
     top: 0;
@@ -131,21 +133,24 @@
     border-color: transparent var(--orange) transparent transparent;
 }
 
-.geo4 {
-    bottom: 15px;
-    left: 10px;
-    width: 50px;
-    height: 8px;
-    background: var(--ink);
+
+.geo4{
+    top: 15px;
+    left: 15px;
+    width: 65px;
+    height: 65px;
+    background: var(--red);
+    transform: rotate(-10deg);
 }
 
-.geo5 {
-    top: 40px;
-    left: 20px;
-    width: 35px;
-    height: 35px;
-    border: 4px solid var(--ink);
-    border-radius: 50%;
+.geo9{
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 100px 100px 0;
+    border-color: transparent var(--orange) transparent transparent;
 }
 
 .geo6 {
@@ -159,41 +164,32 @@
 }
 
 .geo7 {
-    top: 5px;
-    right: 5px;
-    width: 55px;
-    height: 90px;
-    background: var(--cyan);
+    top: 0px;
+    right: 0px;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 100px 100px 0;
+    border-color: transparent var(--orange);
+}
+ 
+
+.geo8{
+    top: 15px;
+    left: 15px;
+    width: 65px;
+    height: 65px;
+    background: var(--red);
+    transform: rotate(-10deg);
 }
 
-.geo8 {
-    bottom: 10px;
-    left: 10px;
-    width: 50px;
-    height: 50px;
-    background: var(--ink);
-    transform: rotate(15deg);
-}
-
-.geo9,
-.geo10,
-.geo11 {
-    top: 20px;
-    left: 20px;
-    width: 70px;
-    height: 4px;
-    background: var(--paper);
-    transform: rotate(-30deg);
-}
-
-.geo10 {
-    top: 50px;
-    width: 50px;
-}
-
-.geo11 {
-    top: 80px;
-    width: 35px;
+.geo11{
+    top: 15px;
+    left: 15px;
+    width: 65px;
+    height: 65px;
+    background: var(--red);
+    transform: rotate(-10deg);
 }
 
 .lw-initial {
