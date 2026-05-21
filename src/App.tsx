@@ -5,6 +5,7 @@ import Profiel from './pages/profiel'
 import Taken from './pages/taken'
 import Settings from './pages/settings'
 import Leraren from './pages/leraren'
+import Cijfers from './pages/cijfers'
 
 
 
@@ -20,7 +21,7 @@ function App() {
           <Route path="taken" element={<Taken />} />
           <Route path="settings" element={<Settings />} />
           <Route path="leraren" element={<Leraren />} />
-
+          <Route path="cijfers" element={<Cijfers />} />
         </Route>
       </Routes>
     </BrowserRouter>

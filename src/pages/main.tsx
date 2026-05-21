@@ -1,4 +1,4 @@
-import '../styling/main.css'   
+import '../styling/main.css'
 import { Link, Outlet, useLocation } from 'react-router-dom'
 
 export function HomeContent() {
@@ -155,11 +155,11 @@ export function HomeContent() {
             <span className="ir-glyph">▶</span>
             <span className="ir-text">Examen na de tweede stage</span>
           </div>
-           <div className="info-row">
+          <div className="info-row">
             <span className="ir-glyph">▶</span>
             <span className="ir-text">4 van 5 doelen afgerond dit schooljaar</span>
           </div>
-           <div className="info-row">
+          <div className="info-row">
             <span className="ir-glyph">▶</span>
             <span className="ir-text">Beginnen met een nieuwe project over een movie website</span>
           </div>
@@ -174,8 +174,9 @@ const navItems = [
   { num: '02', label: 'Rooster', to: '/main/rooster' },
   { num: '03', label: 'Taken', to: '/main/taken' },
   { num: '04', label: 'Leraren', to: '/main/leraren' },
-  { num: '05', label: 'Profiel', to: '/main/profiel' },
-  { num: '06', label: 'Settings', to: '/main/settings' },
+  { num: '05', label: 'Cijfers', to: '/main/cijfers' },
+  { num: '06', label: 'Profiel', to: '/main/profiel' },
+  { num: '07', label: 'Settings', to: '/main/settings' },
 ]
 
 function Sidebar() {
