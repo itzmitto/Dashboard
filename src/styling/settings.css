@@ -1,0 +1,188 @@
+.settings-page {
+    --paper: #F0EBE1;
+    --paper2: #E4DDD0;
+    --ink: #0F0E0C;
+    --red: #D42B2B;
+    --orange: #E8621A;
+    --gray: #6B6560;
+    --lgray: #B5AFA6;
+
+    font-family: 'Space Mono', monospace;
+    background: var(--paper);
+    color: var(--ink);
+    min-height: 100vh;
+}
+
+.settings-page .topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.85rem 2rem;
+    border-bottom: 2px solid var(--ink);
+    background: var(--paper);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.settings-page .tb-left {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+}
+
+.settings-page .tb-chapter {
+    font-family: 'Anton', sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.3em;
+    color: var(--gray);
+    text-transform: uppercase;
+}
+
+.settings-page .tb-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.05em;
+    color: var(--ink);
+    line-height: 1;
+}
+
+.settings-page .tb-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.settings-page .tb-tag {
+    font-size: 7px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border: 1.5px solid var(--ink);
+    color: var(--ink);
+    font-family: 'Space Mono', monospace;
+}
+
+.settings-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 2px solid var(--ink);
+}
+
+.sg-panel {
+    padding: 2rem;
+    border-right: 2px solid var(--ink);
+    background: var(--paper);
+}
+
+.sg-panel:last-child {
+    border-right: none;
+}
+
+.sg-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 0.08em;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 2px solid var(--ink);
+    color: var(--ink);
+}
+
+.setting-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--paper2);
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.setting-row:last-child {
+    border-bottom: none;
+}
+
+.setting-row:hover .sr-name {
+    color: var(--red);
+}
+
+.sr-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.sr-name {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+    color: var(--ink);
+    transition: color 0.2s;
+}
+
+.sr-desc {
+    font-size: 8px;
+    color: var(--lgray);
+    letter-spacing: 0.08em;
+    font-family: 'Space Mono', monospace;
+}
+
+.toggle-box {
+    width: 44px;
+    height: 22px;
+    border: 2px solid var(--ink);
+    position: relative;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: background 0.25s;
+    background: #fff;
+}
+
+.toggle-box.on {
+    background: var(--ink);
+}
+
+.toggle-box::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 14px;
+    height: 14px;
+    background: var(--ink);
+    transition: left 0.25s, background 0.25s;
+}
+
+.toggle-box.on::after {
+    left: 24px;
+    background: var(--red);
+}
+
+.sel-fake {
+    border: 2px solid var(--ink);
+    padding: 4px 10px;
+    font-family: 'Space Mono', monospace;
+    font-size: 8px;
+    letter-spacing: 0.15em;
+    color: var(--ink);
+    cursor: pointer;
+    background: #fff;
+    flex-shrink: 0;
+}
+
+.settings-page {
+    animation: pg-in 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes pg-in {
+    from {
+        opacity: 0;
+        transform: translateY(14px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

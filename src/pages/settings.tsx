@@ -1,13 +1,93 @@
 import '../styling/settings.css';
-   
-function Settings() { 
+
+function Settings() {
     return (
-        <div className="rooster-page">
-            <div className="gridContainer">
-                <div className="titleBlock">
-                    <h1>settings</h1>
-                    <h2>dit is de settings pagina </h2>
+        <div className="settings-page">
+
+            <div className="topbar">
+                <div className="tb-left">
+                    <span className="tb-chapter">07 —</span>
+                    <span className="tb-title">SETTINGS</span>
                 </div>
+                <div className="tb-right">
+                    <span className="tb-tag">Preferenties</span>
+                </div>
+            </div>
+
+            <div className="settings-grid">
+
+                <div className="sg-panel">
+                    <div className="sg-title">Interface</div>
+
+                    <div className="setting-row">
+                        <div className="sr-info">
+                            <div className="sr-name">Dark Mode</div>
+                            <div className="sr-desc">Schakel naar donker thema</div>
+                        </div>
+                        <button className="toggle-box">UIT</button>
+                    </div>
+
+                    <div className="setting-row">
+                        <div className="sr-info">
+                            <div className="sr-name">Compacte Weergave</div>
+                            <div className="sr-desc">Minder witruimte in de layout</div>
+                        </div>
+                        <button className="toggle-box">UIT</button>
+                    </div>
+
+                    <div className="setting-row">
+                        <div className="sr-info">
+                            <div className="sr-name">Animaties</div>
+                            <div className="sr-desc">Pagina-overgangen en hover-effecten</div>
+                        </div>
+                        <button className="toggle-box on">AAN</button>
+                    </div>
+
+                    <div className="setting-row">
+                        <div className="sr-info">
+                            <div className="sr-name">Taal</div>
+                            <div className="sr-desc">Weergavetaal van de interface</div>
+                        </div>
+                        <div className="sel-fake">Nederlands</div>
+                    </div>
+                </div>
+
+                <div className="sg-panel">
+                    <div className="sg-title">Meldingen</div>
+
+                    <div className="setting-row">
+                        <div className="sr-info">
+                            <div className="sr-name">Push Meldingen</div>
+                            <div className="sr-desc">Ontvang browser-notificaties</div>
+                        </div>
+                        <button className="toggle-box on">AAN</button>
+                    </div>
+
+                    <div className="setting-row">
+                        <div className="sr-info">
+                            <div className="sr-name">Deadline Reminders</div>
+                            <div className="sr-desc">Herinnering 24u van tevoren</div>
+                        </div>
+                        <button className="toggle-box on">AAN</button>
+                    </div>
+
+                    <div className="setting-row">
+                        <div className="sr-info">
+                            <div className="sr-name">Geluidssignalen</div>
+                            <div className="sr-desc">Audio bij actie-bevestigingen</div>
+                        </div>
+                        <button className="toggle-box">UIT</button>
+                    </div>
+
+                    <div className="setting-row">
+                        <div className="sr-info">
+                            <div className="sr-name">E-mail Digest</div>
+                            <div className="sr-desc">Wekelijkse samenvatting per mail</div>
+                        </div>
+                        <button className="toggle-box">UIT</button>
+                    </div>
+                </div>
+
             </div>
         </div>
     );

@@ -30,7 +30,7 @@ function Taken() {
                         <div className="tl-sub">Software Architecture</div>
                     </div>
                     <span className="tl-badge tbg-u">Urgent</span>
-                    <span className="tl-dead">Morgen 09:00</span>
+                    <span className="tl-dead">Morgen</span>
                     <span className="tl-vak">Coding Flex</span>
                 </div>
 
@@ -41,7 +41,7 @@ function Taken() {
                         <div className="tl-sub">Persoonlijke Ontwikkeling</div>
                     </div>
                     <span className="tl-badge tbg-s">Spoedig</span>
-                    <span className="tl-dead">Do. 23:59</span>
+                    <span className="tl-dead">Deze week</span>
                     <span className="tl-vak">Coding Flex</span>
                 </div>
 
@@ -52,7 +52,7 @@ function Taken() {
                         <div className="tl-sub">Github</div>
                     </div>
                     <span className="tl-badge tbg-l">Later</span>
-                    <span className="tl-dead">volg. week</span>
+                    <span className="tl-dead">volgende week</span>
                     <span className="tl-vak">Coding Flex</span>
                 </div>
 
@@ -63,7 +63,7 @@ function Taken() {
                         <div className="tl-sub">Github</div>
                     </div>
                     <span className="tl-badge tbg-l">Later</span>
-                    <span className="tl-dead">Volg. week</span>
+                    <span className="tl-dead">volgende week</span>
                     <span className="tl-vak">Coding Flex</span>
                 </div>
 
