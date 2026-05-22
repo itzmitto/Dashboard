@@ -105,11 +105,15 @@
 }
 
 .rg-card:hover .rg-shape:first-child {
-  transform: rotate(15deg) scale(1.1);
+  transform: rotate(15deg) scale(1);
 }
 
 .rg-card:hover .rg-shape:nth-child(2) {
   transform: translateX(8px);
+}
+
+.rg-card:hover .rg-shape:nth-child(3) {
+  transform: translateY(10px);
 }
 
 .rg-painting {
@@ -170,7 +174,7 @@
 }
 
 .rg-shape--dinsdag-3 {
-   top: 5px;
+  top: 5px;
   left: 10px;
   width: 70px;
   height: 40px;
@@ -178,7 +182,7 @@
 }
 
 .rg-shape--woensdag-1 {
-    top: 15px;
+  top: 15px;
   left: 20px;
   width: 60px;
   height: 60px;
