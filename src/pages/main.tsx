@@ -195,7 +195,7 @@ function Sidebar() {
         <div className="sb-logo-bar"></div>
       </div>
 
-      <div className="sb-label">Navigation</div>
+      <div className="sb-label">Navigation</div> 
 
       <ul className="sidebar-menu">
         {navItems.map((item) => (
