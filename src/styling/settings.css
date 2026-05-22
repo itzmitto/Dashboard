@@ -1,5 +1,5 @@
 .settings-page {
- 
+
     font-family: 'Space Mono', monospace;
     background: var(--paper);
     color: var(--ink);
@@ -127,12 +127,9 @@
     position: relative;
     flex-shrink: 0;
     transition: background 0.25s;
-    content-visibility: hidden;
     background: #fff;
-}
-
-.toggle-box.on {
-    background: var(--ink);
+    font-size: 0;
+    cursor: pointer;
 }
 
 .toggle-box::after {
@@ -143,8 +140,14 @@
     width: 14px;
     height: 14px;
     background: var(--ink);
-    transition: left 0.25s, background 0.25s;
+    transition: left 0.25s;
 }
+
+.toggle-box.on {
+    background: var(--ink);
+}
+
+
 
 .toggle-box.on::after {
     left: 24px;
@@ -162,14 +165,30 @@
     flex-shrink: 0;
 }
 
-.settings-page {
-    animation: pg-in 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+.sg-panel {
+    animation: fadeUpSmall 0.5s ease;
 }
 
-@keyframes pg-in {
+.setting-row {
+    animation: fadeUpLarge 0.5s ease;
+}
+
+@keyframes fadeUpSmall {
     from {
         opacity: 0;
         transform: translateY(14px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeUpLarge {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
     }
 
     to {
