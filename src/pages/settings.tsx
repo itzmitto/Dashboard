@@ -15,7 +15,6 @@ function Settings() {
             </div>
 
             <div className="settings-grid">
-
                 <div className="sg-panel">
                     <div className="sg-title">Interface</div>
 

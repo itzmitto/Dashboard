@@ -1,12 +1,5 @@
 .settings-page {
-    --paper: #F0EBE1;
-    --paper2: #E4DDD0;
-    --ink: #0F0E0C;
-    --red: #D42B2B;
-    --orange: #E8621A;
-    --gray: #6B6560;
-    --lgray: #B5AFA6;
-
+ 
     font-family: 'Space Mono', monospace;
     background: var(--paper);
     color: var(--ink);
@@ -95,7 +88,6 @@
     justify-content: space-between;
     padding: 1rem 0;
     border-bottom: 1px solid var(--paper2);
-    cursor: pointer;
     transition: background 0.2s;
 }
 
@@ -133,9 +125,9 @@
     height: 22px;
     border: 2px solid var(--ink);
     position: relative;
-    cursor: pointer;
     flex-shrink: 0;
     transition: background 0.25s;
+    content-visibility: hidden;
     background: #fff;
 }
 
@@ -166,7 +158,6 @@
     font-size: 8px;
     letter-spacing: 0.15em;
     color: var(--ink);
-    cursor: pointer;
     background: #fff;
     flex-shrink: 0;
 }
