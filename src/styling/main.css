@@ -83,7 +83,6 @@ body::after {
   color: rgba(255, 255, 255, 0.025);
   line-height: 1;
   pointer-events: none;
-  user-select: none;
 }
 
 .sidebar::after {

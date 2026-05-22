@@ -1,4 +1,4 @@
-import '../styling/main.css'  
+import '../styling/main.css'    
 import { Link, Outlet, useLocation } from 'react-router-dom'
 
 export function HomeContent() { 
@@ -14,7 +14,7 @@ export function HomeContent() {
           <span className="tb-tag">Week 19</span>
           <span className="tb-tag red">Live</span>
         </div>
-      </div>
+      </div> 
 
       <div className="home-hero">
         <div className="hero-cell">
