@@ -21,7 +21,7 @@ function Settings() {
                     <div className="setting-row">
                         <div className="sr-info">
                             <div className="sr-name">Dark Mode</div>
-                            <div className="sr-desc">Schakel naar donker thema</div>
+                            <div className="sr-desc">Schakel naar donker</div>
                         </div>
                         <button className="toggle-box">UIT</button>
                     </div>
@@ -29,7 +29,7 @@ function Settings() {
                     <div className="setting-row">
                         <div className="sr-info">
                             <div className="sr-name">Compacte Weergave</div>
-                            <div className="sr-desc">Minder witruimte in de layout</div>
+                            <div className="sr-desc">Minder witruimte in de pagina</div>
                         </div>
                         <button className="toggle-box">UIT</button>
                     </div>
@@ -37,7 +37,7 @@ function Settings() {
                     <div className="setting-row">
                         <div className="sr-info">
                             <div className="sr-name">Animaties</div>
-                            <div className="sr-desc">Pagina-overgangen en hover-effecten</div>
+                            <div className="sr-desc">De hover effecten aan en uit doen</div>
                         </div>
                         <button className="toggle-box on">AAN</button>
                     </div>
@@ -45,7 +45,7 @@ function Settings() {
                     <div className="setting-row">
                         <div className="sr-info">
                             <div className="sr-name">Taal</div>
-                            <div className="sr-desc">Weergavetaal van de interface</div>
+                            <div className="sr-desc">De taal</div>
                         </div>
                         <div className="sel-fake">Nederlands</div>
                     </div>
@@ -57,7 +57,7 @@ function Settings() {
                     <div className="setting-row">
                         <div className="sr-info">
                             <div className="sr-name">Push Meldingen</div>
-                            <div className="sr-desc">Ontvang browser-notificaties</div>
+                            <div className="sr-desc">Meldingen</div>
                         </div>
                         <button className="toggle-box on">AAN</button>
                     </div>
@@ -65,7 +65,7 @@ function Settings() {
                     <div className="setting-row">
                         <div className="sr-info">
                             <div className="sr-name">Deadline Reminders</div>
-                            <div className="sr-desc">Herinnering 24u van tevoren</div>
+                            <div className="sr-desc">Herinneringen</div>
                         </div>
                         <button className="toggle-box on">AAN</button>
                     </div>
@@ -73,7 +73,7 @@ function Settings() {
                     <div className="setting-row">
                         <div className="sr-info">
                             <div className="sr-name">Geluidssignalen</div>
-                            <div className="sr-desc">Audio bij actie-bevestigingen</div>
+                            <div className="sr-desc">Audio</div>
                         </div>
                         <button className="toggle-box">UIT</button>
                     </div>
@@ -81,7 +81,7 @@ function Settings() {
                     <div className="setting-row">
                         <div className="sr-info">
                             <div className="sr-name">E-mail Digest</div>
-                            <div className="sr-desc">Wekelijkse samenvatting per mail</div>
+                            <div className="sr-desc">Mail</div>
                         </div>
                         <button className="toggle-box">UIT</button>
                     </div>

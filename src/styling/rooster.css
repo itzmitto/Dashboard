@@ -1,91 +1,236 @@
-.rooster-page { 
-  background-color: #121212; 
-  color: #ffffff;
+.rooster-page {
+  font-family: 'Space Mono', monospace;
+  background: var(--paper);
+  color: var(--ink);
   min-height: 100vh;
-  padding: 40px;
-  font-family: sans-serif;
 }
 
-.schedule-wrapper {
+.rooster-page .topbar {
   display: flex;
-  background-color: #1e1e1e;
-  border-radius: 8px;
-  padding: 20px;
-  border: 1px solid #333;
-}
-
-.time-column {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding-top: 50px;
-  margin-right: 20px;
-  color: #666;
-  font-size: 0.8rem;
-}
-
-.time-slot {
-  height: 60px; 
-}
-
-.cardsContainer {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr); 
-  gap: 10px;
-  width: 100%;
-}
-
-.day-column {
-  display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  padding: 0.85rem 2rem;
+  border-bottom: 2px solid var(--ink);
+  background: var(--paper);
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
-.day-label {
-  font-size: 0.7rem;
-  font-weight: bold;
-  color: #888;
-  margin-bottom: 20px;
-  letter-spacing: 1px;
+.rooster-page .tb-left {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
 }
 
-.card {
-  background-color: #2c2c2c; 
-  border-left: 4px solid #4a90e2; 
-  border-radius: 6px;
-  padding: 15px;
-  width: 100%;
-  box-sizing: border-box;
+.rooster-page .tb-chapter {
+  font-family: 'Anton', sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.3em;
+  color: var(--gray);
+  text-transform: uppercase;
 }
 
-.long-card {
-  height: 400px; 
+.rooster-page .tb-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.05em;
+  color: var(--ink);
+  line-height: 1;
 }
 
-.short-card {
-  height: 250px; 
+.rooster-page .tb-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
-.course-code {
-  display: block;
-  font-size: 0.7rem;
-  color: #aaa;
-  margin-bottom: 5px;
+.rooster-page .tb-tag {
+  font-size: 7px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border: 1.5px solid var(--ink);
+  color: var(--ink);
+  font-family: 'Space Mono', monospace;
 }
 
-.course-name {
-  font-weight: bold;
-  font-size: 1rem;
-  margin: 0 0 10px 0;
+.rooster-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
 }
 
-.location {
-  font-size: 0.8rem;
-  color: #888;
+.rg-card {
+  border-right: 2px solid var(--ink);
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
 }
 
-.card:hover {
-  background-color: #3d3d3d;
-  transform: translateY(-2px);
-  transition: 0.2s;
+.rg-card:last-child {
+  border-right: none;
+}
+
+.rg-card:hover {
+  transform: translateY(-6px);
+  z-index: 5;
+}
+
+.rg-card:hover .rg-head {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.rg-painting {
+  height: 120px;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 2px solid var(--ink);
+  background: var(--paper);
+}
+
+.rg-shape {
+  position: absolute;
+  transition: transform 0.4s ease;
+}
+
+.rg-card:hover .rg-shape:first-child {
+  transform: rotate(15deg) scale(1.1) !important;
+}
+
+.rg-card:hover .rg-shape:nth-child(2) {
+  transform: translateX(8px) !important;
+}
+
+.rg-shape--triangle {
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 90px 120px 0;
+  border-color: transparent var(--mint) transparent transparent;
+  opacity: 0.8;
+  background: none !important;
+}
+
+.rg-head {
+  font-family: 'Anton', sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  padding: 8px 1rem;
+  background: var(--paper2);
+  border-bottom: 2px solid var(--ink);
+  transition: background 0.25s, color 0.25s;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+.rg-body {
+  padding: 1.2rem 1rem;
+}
+
+.rg-time {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2rem;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  margin-bottom: 2px;
+  color: var(--ink);
+}
+
+.rg-sep {
+  font-size: 8px;
+  letter-spacing: 0.15em;
+  color: var(--lgray);
+  margin-bottom: 8px;
+  font-family: 'Space Mono', monospace;
+}
+
+.rg-ruler {
+  height: 1.5px;
+  background: var(--ink);
+  margin-bottom: 8px;
+  opacity: 0.15;
+}
+
+.rg-room {
+  font-size: 7px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--lgray);
+  margin-bottom: 4px;
+  font-family: 'Space Mono', monospace;
+}
+
+.rg-vak {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 0.06em;
+  color: var(--ink);
+}
+
+.rg-tag {
+  display: inline-block;
+  font-size: 6px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  margin-top: 8px;
+  background: var(--ink);
+  color: var(--paper);
+  font-family: 'Space Mono', monospace;
+}
+
+.rooster-page {
+  animation: pg-in 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes pg-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.rg-card {
+  animation: card-in 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.rg-card:nth-child(1) {
+  animation-delay: 0.05s;
+}
+
+.rg-card:nth-child(2) {
+  animation-delay: 0.10s;
+}
+
+.rg-card:nth-child(3) {
+  animation-delay: 0.15s;
+}
+
+.rg-card:nth-child(4) {
+  animation-delay: 0.20s;
+}
+
+.rg-card:nth-child(5) {
+  animation-delay: 0.25s;
+}
+
+@keyframes card-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

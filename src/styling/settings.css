@@ -88,7 +88,6 @@
     justify-content: space-between;
     padding: 1rem 0;
     border-bottom: 1px solid var(--paper2);
-    transition: background 0.2s;
 }
 
 .setting-row:last-child {
@@ -110,7 +109,6 @@
     font-size: 1rem;
     letter-spacing: 0.05em;
     color: var(--ink);
-    transition: color 0.2s;
 }
 
 .sr-desc {
@@ -126,7 +124,6 @@
     border: 2px solid var(--ink);
     position: relative;
     flex-shrink: 0;
-    transition: background 0.25s;
     background: #fff;
     font-size: 0;
     cursor: pointer;
@@ -140,14 +137,11 @@
     width: 14px;
     height: 14px;
     background: var(--ink);
-    transition: left 0.25s;
 }
 
 .toggle-box.on {
     background: var(--ink);
 }
-
-
 
 .toggle-box.on::after {
     left: 24px;
