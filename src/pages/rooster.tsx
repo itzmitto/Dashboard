@@ -1,4 +1,4 @@
-import '../styling/rooster.css';
+import '../styling/rooster.css'; 
 
 interface Vak {
   naam: string;

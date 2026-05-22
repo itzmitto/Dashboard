@@ -105,11 +105,11 @@
 }
 
 .rg-card:hover .rg-shape:first-child {
-  transform: rotate(15deg) scale(1.1) !important;
+  transform: rotate(15deg) scale(1.1);
 }
 
 .rg-card:hover .rg-shape:nth-child(2) {
-  transform: translateX(8px) !important;
+  transform: translateX(8px);
 }
 
 .rg-painting {
@@ -139,16 +139,16 @@
   right: 10px;
   width: 40px;
   height: 40px;
-  background: var(--ink);
+  background: var(--magenta);
   clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
 }
 
 .rg-shape--maandag-3 {
-  bottom: 5px;
-  left: 50px;
-  width: 30px;
-  height: 30px;
-  border: 3px solid var(--ink);
+  bottom: 10px;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  background: var(--cyan);
   border-radius: 50%;
 }
 
@@ -170,20 +170,20 @@
 }
 
 .rg-shape--dinsdag-3 {
-  top: 50px;
-  left: 40px;
-  width: 25px;
-  height: 25px;
-  border: 3px solid var(--orange);
-  transform: rotate(45deg);
-}
-
-.rg-shape--woensdag-1 {
-  top: 5px;
+   top: 5px;
   left: 10px;
   width: 70px;
   height: 40px;
   background: var(--cyan);
+}
+
+.rg-shape--woensdag-1 {
+    top: 15px;
+  left: 20px;
+  width: 60px;
+  height: 60px;
+  background: var(--mint);
+  transform: rotate(-8deg);
 }
 
 .rg-shape--woensdag-2 {
@@ -191,15 +191,15 @@
   right: 0;
   width: 50px;
   height: 70px;
-  background: var(--ink);
+  background: var(--red);
 }
 
 .rg-shape--woensdag-3 {
-  top: 35px;
-  left: 55px;
-  width: 30px;
-  height: 30px;
-  background: var(--paper);
+  bottom: 10px;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  background: var(--orange);
   border-radius: 50%;
 }
 
@@ -221,12 +221,12 @@
 }
 
 .rg-shape--donderdag-3 {
-  top: 20px;
-  left: 25px;
+  top: 10px;
+  left: 10px;
   width: 40px;
-  height: 4px;
-  background: var(--magenta);
-  transform: rotate(-20deg);
+  height: 40px;
+  background: var(--cyan);
+  clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
 }
 
 .rg-shape--vrijdag-1 {
@@ -250,10 +250,10 @@
 }
 
 .rg-shape--vrijdag-3 {
-  top: 20px;
-  left: 20px;
-  width: 50px;
-  height: 3px;
+  bottom: 80px;
+  left: 15px;
+  width: 45px;
+  height: 25px;
   background: var(--ink);
 }
 
