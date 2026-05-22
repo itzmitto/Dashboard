@@ -132,6 +132,6 @@ function Rooster() {
 
     </div>
   );
-}
+}1
 
 export default Rooster; 
