@@ -6,7 +6,7 @@ export function HomeContent() {
     <div className="page-content">
       <div className="topbar">
         <div className="tb-left">
-          <span className="tb-chapter">01 —</span>
+          <span className="tb-chapter">01</span>
           <span className="tb-title">HOME</span>
         </div>
         <div className="tb-right">
