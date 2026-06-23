@@ -2,7 +2,7 @@ import '../styling/main.css'
 import { Link, Outlet, useLocation } from 'react-router-dom'
 
 export function HomeContent() { 
-  return (
+  return (  
     <div className="page-content">
       <div className="topbar">
         <div className="tb-left">
