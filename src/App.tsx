@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import Main, { HomeContent } from './pages/main'
 import Rooster from './pages/rooster'
@@ -10,6 +11,11 @@ import Cijfers from './pages/cijfers'
 
 
 function App() {
+  useEffect(() => {
+    const isDark = localStorage.getItem('darkMode') === 'true';
+    document.body.classList.toggle('dark', isDark);
+  }, []);
+
   return (
     <BrowserRouter>
       <Routes>

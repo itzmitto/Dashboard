@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
 
-:root {
+ :root {
   --paper: #F0EBE1;
   --paper2: #E4DDD0;
   --ink: #0F0E0C;
@@ -11,8 +11,18 @@
   --mint: #4ABFA0;
   --off: #1A1814;
   --gray: #6B6560;
-  --lgray: #B5AFA6;
+  --lgray: #B5AFA6; 
+  transition: background-color .3s, color .3s;
+} 
+
+body.dark {
+  --paper: #0F0E0C;
+  --paper2: #1A1814;
+  --ink: #F0EBE1;
+  --gray: #B5AFA6;
+  --lgray: #6B6560;
 }
+
 
 *,
 *::before,

@@ -1,6 +1,17 @@
+import { useState, useEffect } from 'react';
 import '../styling/settings.css';
+import '../styling/main.css';
 
 function Settings() {
+    const [darkMode, setDarkMode] = useState(() => {
+        return localStorage.getItem('darkMode') === 'true';
+    });
+
+    useEffect(() => {
+        document.body.classList.toggle('dark', darkMode);
+        localStorage.setItem('darkMode', String(darkMode));
+    }, [darkMode]);
+
     return (
         <div className="settings-page">
 
@@ -14,6 +25,8 @@ function Settings() {
                 </div>
             </div>
 
+
+
             <div className="settings-grid">
                 <div className="sg-panel">
                     <div className="sg-title">Interface</div>
@@ -23,9 +36,15 @@ function Settings() {
                             <div className="sr-name">Dark Mode</div>
                             <div className="sr-desc">Schakel naar donker</div>
                         </div>
-                        <button className="toggle-box">UIT</button>
+                        <button
+                            className={`toggle-box ${darkMode ? 'on' : ''}`}
+                            onClick={() => setDarkMode(!darkMode)}
+                        >
+                            {darkMode ? 'AAN' : 'UIT'}
+                        </button>
                     </div>
 
+                  
                     <div className="setting-row">
                         <div className="sr-info">
                             <div className="sr-name">Compacte Weergave</div>
