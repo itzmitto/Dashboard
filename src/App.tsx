@@ -7,6 +7,7 @@ import Taken from './pages/taken'
 import Settings from './pages/settings'
 import Leraren from './pages/leraren'
 import Cijfers from './pages/cijfers'
+import './styling/media.css'  
 
 
 
